@@ -13,3 +13,14 @@ scikit-learn=1.0.2
 scipy=1.7.3
 # selenium=4.1.0 # conda install -c conda-forge selenium
 statsmodels=0.13.0
+geopandas=0.9.0
+# conda install -c plotly plotly_express
+# conda install -c conda-forge nbformat
+# conda install -c michaelsjp openrouteservice
+# conda install -c conda-forge fuzzywuzzy
+# conda install -c conda-forge python-kaleido
+# conda install -c anaconda beautifulsoup4
+# conda install -c anaconda nltk
+# conda install -c conda-forge wordcloud
+# conda install -c conda-forge textblob
+seaborn
