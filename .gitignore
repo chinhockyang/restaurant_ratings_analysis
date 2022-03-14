@@ -1,4 +1,4 @@
 .DS_Store
-data/full_restaurant_rating_data.csv
-data/full_restaurant_review_data.csv
+data/
+tokens.py
 .vscode/settings.json
