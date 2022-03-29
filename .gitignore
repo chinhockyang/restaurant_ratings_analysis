@@ -1,5 +1,6 @@
 .DS_Store
 data/
+image/
 tokens.py
 .vscode/settings.json
 __pycache__
