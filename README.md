@@ -3,7 +3,7 @@
 ## Data Folder
 The `data`, `models`, `images` folders in the Google Drive link below are to be placed at the same level as the notebooks in this repository.
 
-Google Drive Link: 
+Google Drive Link: https://drive.google.com/drive/folders/1Ha1sV-vQFdhpOTLZcuZnDSBNLS6wdI-l?usp=sharing
 
 ## Dependency List
 
