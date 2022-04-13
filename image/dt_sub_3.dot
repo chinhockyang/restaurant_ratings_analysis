@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="diet_gluten_free_options <= 0.5\nentropy = 1.0\nsamples = 4890\nvalue = [2572, 2318]", fillcolor="#fcf3eb"] ;
+1 [label="price_category <= 2.5\nentropy = 0.99\nsamples = 4667\nvalue = [2535, 2132]", fillcolor="#fbebe0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="price_category <= 1.5\nentropy = 0.99\nsamples = 4492\nvalue = [2486, 2006]", fillcolor="#fae7d9"] ;
+1 -> 2 ;
+3 [label="entropy = 1.0\nsamples = 2074\nvalue = [1070, 1004]", fillcolor="#fdf7f3"] ;
+2 -> 3 ;
+4 [label="entropy = 0.98\nsamples = 2418\nvalue = [1416, 1002]", fillcolor="#f7dac5"] ;
+2 -> 4 ;
+5 [label="cuisine_chinese <= 0.5\nentropy = 0.86\nsamples = 175\nvalue = [49, 126]", fillcolor="#86c3ef"] ;
+1 -> 5 ;
+6 [label="entropy = 0.79\nsamples = 143\nvalue = [34, 109]", fillcolor="#77bced"] ;
+5 -> 6 ;
+7 [label="entropy = 1.0\nsamples = 32\nvalue = [15, 17]", fillcolor="#e8f3fc"] ;
+5 -> 7 ;
+8 [label="price_category <= 2.5\nentropy = 0.65\nsamples = 223\nvalue = [37, 186]", fillcolor="#60b0ea"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="has_cuisines <= 0.5\nentropy = 0.74\nsamples = 163\nvalue = [34, 129]", fillcolor="#6db7ec"] ;
+8 -> 9 ;
+10 [label="entropy = 0.95\nsamples = 19\nvalue = [7, 12]", fillcolor="#acd6f4"] ;
+9 -> 10 ;
+11 [label="entropy = 0.7\nsamples = 144\nvalue = [27, 117]", fillcolor="#67b4eb"] ;
+9 -> 11 ;
+12 [label="cuisine_chinese <= 0.5\nentropy = 0.29\nsamples = 60\nvalue = [3, 57]", fillcolor="#43a2e6"] ;
+8 -> 12 ;
+13 [label="entropy = 0.35\nsamples = 46\nvalue = [3, 43]", fillcolor="#47a4e7"] ;
+12 -> 13 ;
+14 [label="entropy = 0.0\nsamples = 14\nvalue = [0, 14]", fillcolor="#399de5"] ;
+12 -> 14 ;
+}

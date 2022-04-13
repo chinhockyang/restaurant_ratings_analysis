@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="average_sentiment_score <= 0.28\nentropy = 1.0\nsamples = 4890\nvalue = [2572, 2318]", fillcolor="#fcf3eb"] ;
+1 [label="average_sentiment_score <= 0.23\nentropy = 0.82\nsamples = 2858\nvalue = [2127, 731]", fillcolor="#eeac7d"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="img_uploaded_per_review <= 1.16\nentropy = 0.7\nsamples = 1962\nvalue = [1593, 369]", fillcolor="#eb9e67"] ;
+1 -> 2 ;
+3 [label="entropy = 0.6\nsamples = 1463\nvalue = [1250, 213]", fillcolor="#e9965b"] ;
+2 -> 3 ;
+4 [label="entropy = 0.9\nsamples = 499\nvalue = [343, 156]", fillcolor="#f1ba93"] ;
+2 -> 4 ;
+5 [label="img_uploaded_per_review <= 0.72\nentropy = 0.97\nsamples = 896\nvalue = [534, 362]", fillcolor="#f7d6bf"] ;
+1 -> 5 ;
+6 [label="entropy = 0.88\nsamples = 534\nvalue = [376, 158]", fillcolor="#f0b68c"] ;
+5 -> 6 ;
+7 [label="entropy = 0.99\nsamples = 362\nvalue = [158, 204]", fillcolor="#d2e9f9"] ;
+5 -> 7 ;
+8 [label="average_sentiment_score <= 0.34\nentropy = 0.76\nsamples = 2032\nvalue = [445, 1587]", fillcolor="#71b8ec"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="average_sentiment_score <= 0.3\nentropy = 0.91\nsamples = 1116\nvalue = [362, 754]", fillcolor="#98ccf1"] ;
+8 -> 9 ;
+10 [label="entropy = 0.98\nsamples = 517\nvalue = [211, 306]", fillcolor="#c2e1f7"] ;
+9 -> 10 ;
+11 [label="entropy = 0.81\nsamples = 599\nvalue = [151, 448]", fillcolor="#7cbeee"] ;
+9 -> 11 ;
+12 [label="img_uploaded_per_review <= 0.1\nentropy = 0.44\nsamples = 916\nvalue = [83, 833]", fillcolor="#4da7e8"] ;
+8 -> 12 ;
+13 [label="entropy = 0.8\nsamples = 136\nvalue = [33, 103]", fillcolor="#78bced"] ;
+12 -> 13 ;
+14 [label="entropy = 0.34\nsamples = 780\nvalue = [50, 730]", fillcolor="#47a4e7"] ;
+12 -> 14 ;
+}

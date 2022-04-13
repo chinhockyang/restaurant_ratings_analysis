@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="meal_drinks <= 0.5\nentropy = 1.0\nsamples = 4890\nvalue = [2572, 2318]", fillcolor="#fcf3eb"] ;
+1 [label="total_operating_hours <= 73.25\nentropy = 0.99\nsamples = 4286\nvalue = [2346, 1940]", fillcolor="#fbe9dd"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="total_operating_hours <= 10.75\nentropy = 1.0\nsamples = 3386\nvalue = [1783, 1603]", fillcolor="#fcf2eb"] ;
+1 -> 2 ;
+3 [label="entropy = 0.98\nsamples = 2332\nvalue = [1344, 988]", fillcolor="#f8decb"] ;
+2 -> 3 ;
+4 [label="entropy = 0.98\nsamples = 1054\nvalue = [439, 615]", fillcolor="#c6e3f8"] ;
+2 -> 4 ;
+5 [label="meal_breakfast <= 0.5\nentropy = 0.95\nsamples = 900\nvalue = [563, 337]", fillcolor="#f5ccb0"] ;
+1 -> 5 ;
+6 [label="entropy = 0.92\nsamples = 662\nvalue = [437, 225]", fillcolor="#f2c29f"] ;
+5 -> 6 ;
+7 [label="entropy = 1.0\nsamples = 238\nvalue = [126, 112]", fillcolor="#fcf1e9"] ;
+5 -> 7 ;
+8 [label="num_of_days_open <= 6.5\nentropy = 0.95\nsamples = 604\nvalue = [226, 378]", fillcolor="#afd8f5"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="meal_breakfast <= 0.5\nentropy = 0.8\nsamples = 191\nvalue = [47, 144]", fillcolor="#7abded"] ;
+8 -> 9 ;
+10 [label="entropy = 0.76\nsamples = 169\nvalue = [37, 132]", fillcolor="#70b8ec"] ;
+9 -> 10 ;
+11 [label="entropy = 0.99\nsamples = 22\nvalue = [10, 12]", fillcolor="#deeffb"] ;
+9 -> 11 ;
+12 [label="meal_breakfast <= 0.5\nentropy = 0.99\nsamples = 413\nvalue = [179, 234]", fillcolor="#d0e8f9"] ;
+8 -> 12 ;
+13 [label="entropy = 1.0\nsamples = 313\nvalue = [145, 168]", fillcolor="#e4f2fb"] ;
+12 -> 13 ;
+14 [label="entropy = 0.92\nsamples = 100\nvalue = [34, 66]", fillcolor="#9fcff2"] ;
+12 -> 14 ;
+}

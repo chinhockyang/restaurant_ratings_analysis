@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="is_in_mall <= 0.5\nentropy = 1.0\nsamples = 4890\nvalue = [2572, 2318]", fillcolor="#fcf3eb"] ;
+1 [label="nearest_train_line_color_green <= 0.5\nentropy = 1.0\nsamples = 3395\nvalue = [1600, 1795]", fillcolor="#e9f4fc"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="nearest_train_line_color_blue <= 0.5\nentropy = 1.0\nsamples = 2321\nvalue = [1149, 1172]", fillcolor="#fbfdfe"] ;
+1 -> 2 ;
+3 [label="entropy = 1.0\nsamples = 1599\nvalue = [837, 762]", fillcolor="#fdf4ed"] ;
+2 -> 3 ;
+4 [label="entropy = 0.99\nsamples = 722\nvalue = [312, 410]", fillcolor="#d0e8f9"] ;
+2 -> 4 ;
+5 [label="walking_distance <= 1821.7\nentropy = 0.98\nsamples = 1074\nvalue = [451, 623]", fillcolor="#c8e4f8"] ;
+1 -> 5 ;
+6 [label="entropy = 0.97\nsamples = 958\nvalue = [382, 576]", fillcolor="#bcdef6"] ;
+5 -> 6 ;
+7 [label="entropy = 0.97\nsamples = 116\nvalue = [69, 47]", fillcolor="#f7d7c0"] ;
+5 -> 7 ;
+8 [label="nearest_train_line_color_blue <= 0.5\nentropy = 0.93\nsamples = 1495\nvalue = [972, 523]", fillcolor="#f3c5a4"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="walking_distance <= 220.65\nentropy = 0.92\nsamples = 1366\nvalue = [912, 454]", fillcolor="#f2c09c"] ;
+8 -> 9 ;
+10 [label="entropy = 0.85\nsamples = 508\nvalue = [366, 142]", fillcolor="#efb286"] ;
+9 -> 10 ;
+11 [label="entropy = 0.95\nsamples = 858\nvalue = [546, 312]", fillcolor="#f4c9aa"] ;
+9 -> 11 ;
+12 [label="walking_distance <= 491.25\nentropy = 1.0\nsamples = 129\nvalue = [60, 69]", fillcolor="#e5f2fc"] ;
+8 -> 12 ;
+13 [label="entropy = 1.0\nsamples = 96\nvalue = [48, 48]", fillcolor="#ffffff"] ;
+12 -> 13 ;
+14 [label="entropy = 0.95\nsamples = 33\nvalue = [12, 21]", fillcolor="#aad5f4"] ;
+12 -> 14 ;
+}

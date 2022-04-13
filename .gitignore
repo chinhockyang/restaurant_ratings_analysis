@@ -1,6 +1,5 @@
 .DS_Store
 data/
-image/
 models/
 tokens.py
 .vscode/settings.json
