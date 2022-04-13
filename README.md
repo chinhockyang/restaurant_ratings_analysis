@@ -1,19 +1,23 @@
-# TripAdvisor Restaurant Rating Analysis
+# Restaurant Rating Analysis
+This project aims to conduct analysis on data collected from TripAdvisor, using Machine Learning and Natural Language Processing methods to study factors that could improve a restaurant's performances in Singapore.
 
-## Data Folder
-The `data` and `models` folders in the Google Drive link below are to be placed at the same level as the notebooks in this repository.
+The information below outlines the steps that are required in order to run the files in our repository.
 
-Google Drive Link: https://drive.google.com/drive/folders/1Ha1sV-vQFdhpOTLZcuZnDSBNLS6wdI-l?usp=sharing
+## Additional Folders required
+The `data` and `models` folders are required to use our notebooks. They are provided in the Google Drive link below:
+https://drive.google.com/drive/folders/1Ha1sV-vQFdhpOTLZcuZnDSBNLS6wdI-l?usp=sharing
 
+The folders are to be placed at the same level of the notebooks as shown below:
+<p align="left">
+		<img src="https://github.com/chinhockyang/restaurant_ratings_analysis/blob/master/image/project-directory.png?raw=true" alt="IMAGE ALT TEXT HERE" width="280" border="10" />
+</p>
 
 ## API Tokens Required
-- The file `05_scrape_train_stn_walk_distance` requires the use of an openrouteservice token to perform geocoding. 
-Please register for a free account on 'https://openrouteservice.org/dev/#/login to obtain an ORS API token.
-- The files `05_scrape_train_stn_walk_distance`, `06_feature_engineering`, `07_EDA_restaurant_region`, `07_EDA_walking_distance_and_within_mall` require the use of a Mapbox token to perform geospatial visualisation.
-Please register for a free Mapbox account on 'https://account.mapbox.com/signup/' to obtain a Mapbox token.
+- The file <strong>05_scrape_train_stn_walk_distance</strong> requires the use of an Openrouteservice token to perform geocoding. A free account can be created from 'https://openrouteservice.org/dev/#/login to obtain an ORS API token.
+- The files <strong>05_scrape_train_stn_walk_distance</strong>, <strong>06_feature_engineering</strong>, <strong>07_EDA_restaurant_region</strong> and <strong>07_EDA_walking_distance_and_within_mall</strong> require the use of a Mapbox token to perform geospatial visualisation. A free account can be created from on 'https://account.mapbox.com/signup/' to obtain a Mapbox token.
 
 
-## Dependency List
+## Virtual Environment and Libraries Required
 
 This project uses Anaconda Virtual Environment to manage project dependencies.
 
