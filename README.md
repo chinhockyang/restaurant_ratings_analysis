@@ -46,3 +46,5 @@ please download and configure a Chromedriver from this link: https://chromedrive
 | NLTK | Natural Language Processing | `conda install -c anaconda nltk` |
 | WordCloud | NLP Visualisation | `conda install -c conda-forge wordcloud` |
 | TextBlob | Sentiment Analysis | `conda install -c conda-forge textblob`|
+| Gensim | Topic Modelling | `conda install -c anaconda gensim`|
+| pyLDAvis | NLP Visualisation | `conda install -c conda-forge pyldavis`|
