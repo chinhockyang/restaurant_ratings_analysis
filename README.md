@@ -14,7 +14,7 @@ The folders are to be placed at the same level of the notebooks as shown below:
 
 ## API Tokens Required
 - The file <strong>05_scrape_train_stn_walk_distance</strong> requires the use of an Openrouteservice token to perform geocoding. A free account can be created from 'https://openrouteservice.org/dev/#/login to obtain an ORS API token.
-- The files <strong>05_scrape_train_stn_walk_distance</strong>, <strong>06_feature_engineering</strong>, <strong>07_EDA_restaurant_region</strong> and <strong>07_EDA_walking_distance_and_within_mall</strong> require the use of a Mapbox token to perform geospatial visualisation. A free account can be created from on 'https://account.mapbox.com/signup/' to obtain a Mapbox token.
+- The files <strong>05_scrape_train_stn_walk_distance</strong>, <strong>06_feature_engineering</strong>, <strong>07_EDA_restaurant_region</strong> require the use of a Mapbox token to perform geospatial visualisation. A free account can be created from on 'https://account.mapbox.com/signup/' to obtain a Mapbox token.
 
 ## ChromeDriver Installation and Web Scraping
 The project uses Selenium to perform Web Scraping from TripAdvisor. To run the scraping notebooks in this directory, 
@@ -42,7 +42,7 @@ This project uses local Anaconda Virtual Environment to manage project dependenc
 | :------------- |:------------- |:-------------|
 | Seaborn | Data Visualisation | `conda install -c anaconda seaborn` |
 | Plotly Express | Data Visualisation | `conda install -c plotly plotly_express` |
-| GeoPandas | Geospatial Analysis <small>Note: Geopandas installation might be unstable due to dependencies conflict. `pip install --upgrade --force-reinstall shapely` might be required in the even of an OSError</small> | `conda install geopandas` |
+| GeoPandas | Geospatial Analysis | `conda install geopandas` <br><br> Note: Geopandas installation might be unstable due to dependencies conflict. `pip install --upgrade --force-reinstall shapely` might be required in the event of an OSError |
 | nbformat | Data Visualisation on Notebook | `conda install -c conda-forge nbformat` |
 | Python Kaleido | Plotly Dependency | `conda install -c conda-forge python-kaleido` |
 | Dython | Visualisation Toolkit | `conda install -c conda-forge dython` |
