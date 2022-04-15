@@ -31,11 +31,10 @@ This project uses local Anaconda Virtual Environment to manage project dependenc
 #### Basic Libraries
 | Libarary | Purpose | Installation |
 | :------------- |:------------- |:-------------|
-| Python=3.7.11 | | `conda install python=3.7.11` |
+| Python=3.8 | | `conda install python=3.8` |
 | Pandas | | `conda install pandas` |
 | Numpy | | `conda install numpy` |
 | Scikit-Learn | Machine Learning | `conda install -c anaconda scikit-learn ` |
-| GeoPandas=0.9.0 | Geospatial Analysis | `conda install -c conda-forge geopandas=0.9.0` |
 | Regex | Regular Expression | `conda install -c anaconda regex` |
 
 #### Data Visualisation
@@ -43,10 +42,11 @@ This project uses local Anaconda Virtual Environment to manage project dependenc
 | :------------- |:------------- |:-------------|
 | Seaborn | Data Visualisation | `conda install -c anaconda seaborn` |
 | Plotly Express | Data Visualisation | `conda install -c plotly plotly_express` |
+| GeoPandas | Geospatial Analysis <small>Note: Geopandas installation might be unstable due to dependencies conflict. `pip install --upgrade --force-reinstall shapely` might be required in the even of an OSError</small> | `conda install geopandas` |
 | nbformat | Data Visualisation on Notebook | `conda install -c conda-forge nbformat` |
 | Python Kaleido | Plotly Dependency | `conda install -c conda-forge python-kaleido` |
 | Dython | Visualisation Toolkit | `conda install -c conda-forge dython` |
-| Pydot | Tree Visualisation | `conda install pydoty` |
+| Pydot | Tree Visualisation | `conda install pydot` |
 | Dtreeviz | Tree Visualisation | `pip install dtreeviz` |
 
 #### Web Data Extraction
