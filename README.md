@@ -17,12 +17,10 @@ The folders are to be placed at the same level of the notebooks as shown below:
 - The files <strong>05_scrape_train_stn_walk_distance</strong>, <strong>06_feature_engineering</strong>, <strong>07_EDA_restaurant_region</strong> require the use of a Mapbox token to perform geospatial visualisation. A free account can be created from on 'https://account.mapbox.com/signup/' to obtain a Mapbox token.
 
 ## ChromeDriver Installation and Web Scraping
-The project uses Selenium to perform Web Scraping from TripAdvisor. To run the scraping notebooks in this directory, 
+The project uses Selenium to perform Web Scraping. To run the scraping notebooks in this directory, 
 please download and configure a Chromedriver from this link: https://chromedriver.chromium.org/downloads.
 
 Guides to installation of Chromedriver can be found at https://www.swtestacademy.com/install-chrome-driver-on-mac/ and https://medium.com/@patrick.yoho11/installing-selenium-and-chromedriver-on-windows-e02202ac2b08
-
-Note that the performance of scraping varies (due to differences in Chromedriver version, browser cache, internet connection etc). Some scraping codes may be out-dated with a refresh of the Document Object Model in the TripAdvisor webpage. The codes however are functional and capable of scraping data as of March 2022.
 
 ## Virtual Environment and Libraries Required
 
