@@ -1,5 +1,5 @@
 # Restaurant Rating Analysis
-This project aims to conduct analysis on data collected from TripAdvisor, using Machine Learning and Natural Language Processing methods to study factors that could improve a restaurant's performances in Singapore.
+This project is part of a school project that aims to conduct analysis on data collected online, using Machine Learning and Natural Language Processing methods to study factors that could improve a restaurant's performances in Singapore.
 
 The information below outlines the steps that are required in order to run the files in our repository.
 
